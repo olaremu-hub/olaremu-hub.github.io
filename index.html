@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Oluwanifesimi | Dev Portfolio</title>
+    <style>
+        :root {
+            --bg: #0d0f12; 
+            --card-bg: #16191e; 
+            --accent: #ff4500; /* Deep Orange */
+            --secondary: #2c3e50; 
+            --text: #e0e0e0;
+            --border: #252a31;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .wrapper {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        header {
+            border-left: 5px solid var(--accent);
+            padding-left: 20px;
+            margin: 40px 0;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            color: #fff;
+        }
+
+        .subtitle {
+            color: #777;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .section {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 30px;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 1rem;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-top: 0;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+        }
+
+        .stat-card {
+            background: #0d0f12;
+            padding: 15px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .stat-card strong {
+            display: block;
+            font-size: 0.7rem;
+            color: #555;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .pill-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .pill {
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 5px 15px;
+            border-radius: 2px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .goal {
+            border-left: 2px solid var(--secondary);
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            font-size: 0.75rem;
+            color: #444;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <header>
+        <h1>Olaremu Daniel Oluwanifesimi</h1>
+        <div class="subtitle">COMPUTER SCIENCE | ASPIRING GAME DEVELOPER</div>
+    </header>
+
+    <div class="section">
+        <h2>About My Journey</h2>
+        <p>I am a 300 Level Computer Science student at <strong>Bowen University</strong>. I specialize in building responsive front-end interfaces while studying the logic and architecture required for world-class game development.</p>
+        
+        <div class="grid">
+            <div class="stat-card">
+                <strong>Institution</strong>
+                Bowen University
+            </div>
+            <div class="stat-card">
+                <strong>Matric Number</strong>
+                BU23CSC1091
+            </div>
+            <div class="stat-card">
+                <strong>Course</strong>
+                Computer Science
+            </div>
+            <div class="stat-card">
+                <strong>Level</strong>
+                300 Level
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Technical Arsenal</h2>
+        <div class="grid">
+            <div class="stat-card">
+                <strong>Web Development</strong>
+                HTML5, CSS3, JavaScript
+            </div>
+            <div class="stat-card">
+                <strong>Game Engines</strong>
+                C# & Logic Systems
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Interests</h2>
+        <div class="pill-container">
+            <div class="pill">Gaming</div>
+            <div class="pill">Competitive Sports</div>
+            <div class="pill">UI Architecture</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Mission Objectives</h2>
+        <div class="goal">
+            <strong>Short-term:</strong> Strengthen my skills in web development while excelling academically.
+        </div>
+        <div class="goal">
+            <strong>Long-term:</strong> Become a professional game developer working with global companies.
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 OLAREMU DANIEL OLUWANIFESIMI // SECURE PORTFOLIO
+    </footer>
+</div>
+
+</body>
+</html>
